@@ -1,0 +1,4 @@
+---Models in module 'crm_stage_probability'---
+---Fields in module 'crm_stage_probability'---
+---XML records in module 'crm_stage_probability'---
+---nothing has changed in this module--
