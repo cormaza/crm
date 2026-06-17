@@ -124,7 +124,7 @@
                     filter_domain="[('partner_id','child_of',self)]"
                 />
                 <field name="user_id" />
-                <group expand="0" name="claims" string="Group By">
+                <group name="claims">
                     <filter
                         string="Partner"
                         name="partner"

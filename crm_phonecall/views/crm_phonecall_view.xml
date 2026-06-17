@@ -315,7 +315,7 @@
                     name="team_id"
                     string="Sales Team"
                 />
-                <group expand="0" string="Group By">
+                <group>
                     <filter
                         context="{'group_by':'partner_id'}"
                         name="groupby_partner"

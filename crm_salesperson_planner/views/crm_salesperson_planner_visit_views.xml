@@ -224,7 +224,7 @@
                     name="visits_upcoming_all"
                     domain="[('date', '&gt;', context_today().strftime('%Y-%m-%d'))]"
                 />
-                <group expand="0" name="visits" string="Group By">
+                <group name="visits">
                     <filter
                         string="Salesperson"
                         name="salesperson"

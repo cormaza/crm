@@ -97,7 +97,7 @@
                     string="Sales Team"
                 />
                 <field name="user_id" string="Salesperson" />
-                <group expand="0" string="Extended Filters...">
+                <group>
                     <field
                         filter_domain="[('partner_id','child_of',self)]"
                         name="partner_id"
@@ -106,7 +106,7 @@
                     <field name="opening_date" />
                     <field name="date_closed" />
                 </group>
-                <group expand="1" string="Group By">
+                <group>
                     <filter
                         context="{'group_by':'user_id'}"
                         name="Salesperson"

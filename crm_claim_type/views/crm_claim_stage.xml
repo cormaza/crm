@@ -37,7 +37,7 @@
         <field name="model">crm.claim.stage</field>
         <field name="arch" type="xml">
             <search string="Search Stages">
-                <group expand="0" string="Group By">
+                <group>
                     <filter
                         string="Claim Type"
                         domain="[]"
